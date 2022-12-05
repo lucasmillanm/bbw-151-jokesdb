@@ -4,6 +4,7 @@ import lombok.*;
 import lombok.experimental.Accessors;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
+import reactor.util.annotation.Nullable;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -23,8 +24,7 @@ public class JokesEntity {
     @Column(nullable = false)
     private String joke;
 
-    @OneToOne
-    private RatingsEntity rating;
+    private String rating;
 
     @CreationTimestamp
     private Date createdOn;
@@ -33,7 +33,7 @@ public class JokesEntity {
     private Date updatedOn;
 
     public void rateJoke(String newRating) {
-        rating.setRating(newRating);
+        setRating(newRating);
     }
 
 }

@@ -1,7 +1,8 @@
 # Throwback 
 
 I would grade this project a 5.2, and here's why: I tried to set my focus on optimal code, since I work with REST API's at work I had it easier.
-Since I fulfilled the "min" requirements, I tried to optimize my code with error messages and optimized the REST Request to its best and since its logging everything it makes it easier to track whats happening.
+Since I fulfilled the "min" requirements, I tried to optimize my code with error messages and optimized the REST Request to its best and since its logging everything it makes it easier to track what's happening.
+I also added a rating function, which enables a user to rate joke after its liking, but the joke is only able to have 1 rating at the time
 
 # JokesDB
 
