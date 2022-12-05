@@ -7,4 +7,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface JokesRepository extends JpaRepository<JokesEntity, Integer> {
 
+    boolean existsByJoke(String joke);
+
 }

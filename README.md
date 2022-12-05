@@ -1,3 +1,8 @@
+# Throwback 
+
+I would grade this project a 5.2, and here's why: I tried to set my focus on optimal code, since I work with REST API's at work I had it easier.
+Since I fulfilled the "min" requirements, I tried to optimize my code with error messages and optimized the REST Request to its best and since its logging everything it makes it easier to track whats happening.
+
 # JokesDB
 
 A minimal application to play with JPA and spring data topics.

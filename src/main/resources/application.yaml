@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/localdb
-    username: localuser
-    password: localpass
+    url: jdbc:postgresql://localhost:6000/localdb
+    username: root
+    password: root
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate.ddl-auto: create
