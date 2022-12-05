@@ -11,7 +11,6 @@ import javax.persistence.*;
 @Setter
 @RequiredArgsConstructor
 @Entity
-@Table(name = "ratings")
 public class RatingsEntity {
 
     @Id
